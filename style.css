@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display:flex;
+  justify-content:center;
+  min-height: 500px;
+  align-items: center;
+  background-color: darkorange;
+}
+.containar{
+  width: 45%;
+  display: flex;
+  min-width: 573px;
+  background-color: aliceblue;
+  padding: 36px;
+  border: 5px solid black;
+  border-radius: 18px;
+}
+.login{
+  width: 500px;
+}
+from{
+  width:300px;
+  margin: 50px auto;
+}
+h1{
+  margin:20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800px;
+  font-style: italic;
+}
+form label{
+  display: block;
+  font-size: 15px;
+  font-weight: 600px;
+  padding:10px;
+}
+input{
+  width: 100%;
+  border:none;
+  outline:none;
+  padding:10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgb(0, 255, 106);
+}
+button{
+  border: none;
+  outline: none;
+  color: wheat;
+  background-color: #62d140;
+  padding: 8px;
+  width: 100%;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 400;
+  border-color: 1px solid gray;
+  border-radius: 10px;
+  border: 1px solid grey ;
+}
+.forgot{
+  display: flex;
+  font-size: 19px;
+  margin-top: 10px;
+  width:500px;
+}
+p a{
+  color: white;
+  text-shadow: 1 1 red;
+  text-decoration: none;
+  padding: 7px;
+  background-color: #1c7a58;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid rgb(33, 33, 55);
+}
+hr{
+  border-top: 8px solid red;
+}
+.reset-password{
+  display: flex;
+  margin-top:15px;
+  width: 500px;
+}
+.hover-box:hover{
+  width:505;
+  font-weight: bolder;
+  font-size: larger;
+}

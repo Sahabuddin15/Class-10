@@ -1,0 +1,114 @@
+
+body{
+  background-color: darkturquoise;
+  display: flex;
+  justify-content: center;
+  min-height: 900px;
+  margin-top: 68px;
+}
+.containar{
+  display: flex;
+    width: 38%;
+    min-width: 400px;
+    background-color: white;
+    padding-left: 44px;
+    border-radius: 39px;
+    border: 2px solid red;
+}
+.login{
+  width:300px;
+}
+from{
+  width: 300px;
+  margin:50px auto;
+}
+h1{
+  margin-top:40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:400px;
+  font-style:italic;
+  color:rgb(255, 0, 0);
+}
+hr{
+  border-top: 5px solid rgb(255, 0, 0);
+  width: 121%;
+}
+.label{
+  display:block;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800px;
+  padding: 7px;
+  color:rgb(255, 0, 212)
+}
+.input-box{
+  width:100%;
+  border:none;
+  outline:none;
+  padding:10px;
+  border: 1px solid rebeccapurple;
+  border-radius: 10px;
+}
+.gender-label{
+  color:rgb(226, 43, 168);
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 10px;
+
+}
+.option-label{
+color:rgb(193, 36, 218);
+font-size: 20px;
+font-style: italic;
+font-weight: 600PX;
+}
+.option-box{
+  width: 105%;
+  font-size: 17px;
+  padding: 7px;
+  color:rgb(201, 36, 187);
+  font-weight: 500px;
+  border-radius: 10px;
+  border: 1px solid rebeccapurple;
+  padding-top: 10px;
+}
+.checkbok{
+  outline: none;
+  width:100%;
+  font-size:22px;
+  color:rgb(220, 43, 226);
+  font-style: italic;
+  padding: 10px;
+}
+.login-box{
+  order: none;
+  outline: none;
+  width: 108%;
+  padding: 9px;
+  border: 1px solid rgb(126, 5, 163);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rebeccapurple;
+}
+p {
+  font-size: 19px;
+  margin-top: 10px;
+}
+p a {display: flex;
+  text-decoration: none;
+  width: 67%;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+  padding: 8px;
+  padding-left: 110px;
+  color: blueviolet;
+}
+.hober-box:hover{
+  font-weight: 1000px;
+  font-size: 20px;
+  background-color: aqua;
+  border-radius: 10px;
+
+}
